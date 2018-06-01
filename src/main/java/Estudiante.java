@@ -11,14 +11,6 @@ public class Estudiante {
         this.telefono = telefono;
     }
 
-    public int getMatricula() {
-        return matricula;
-    }
-
-    public void setMatricula(int matricula) {
-        this.matricula = matricula;
-    }
-
     public String getNombre() {
         return nombre;
     }
@@ -33,6 +25,12 @@ public class Estudiante {
 
     public void setApellido(String apellido) {
         this.apellido = apellido;
+    }
+
+    public int getMatricula() { return matricula; }
+
+    public void setMatricula(int matricula) {
+        this.matricula = matricula;
     }
 
     public String getTelefono() {
